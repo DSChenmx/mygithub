@@ -1,0 +1,146 @@
+.header {
+    top:0px;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/* content */
+.content {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 980px;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.titleBox {
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #333;
+}
+
+/* form */
+
+form {
+    padding: 20px 0 0 100px;
+}
+
+.inputBox {
+    width: 200px;
+    position: relative;
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.12);
+    float: left;
+    margin-right: 42px;
+    margin-bottom: 40px;
+}
+
+.inputBox .label span {
+    position: absolute;
+    left: 30px;
+    line-height: 44px;
+    color: #ea4c89;
+    vertical-align: text-top;
+}
+
+.inputBox input {
+    outline: none;
+    background-color: transparent;
+    border: 0 none;
+    float: left;
+    color: #333;
+    height: 39px;
+    padding: 10px 0px 10px 45px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+}
+
+.inputBox input:focus {
+    border: 1px solid #00c3b6;
+}
+
+/* checkbox */
+.checkbox {
+    clear: both;
+    width: 688px;
+    height: 90px;
+    border: 1px solid #cbcbcb;
+    margin-bottom: 40px;
+}
+
+.checkbox p{
+    padding: 10px;
+}
+
+.checkbox input {
+    vertical-align: middle;
+}
+
+.checkbox label {
+    line-height: 30px;
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.checkbox ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.checkbox ul li {
+    float: left;
+    padding-right: 30px;
+}
+
+.second {
+    height: 120px;
+}
+
+/* message */
+.message {
+    position: relative;
+}
+
+.message textarea {
+    width: 668px;
+    height: 100px;
+    border: 1px solid #cbcbcb;
+    padding: 10px;
+    outline:none;
+}
+
+.message textarea:focus{
+	border:1px solid #00C3B6;
+}
+
+.message input {
+    width: 128px;
+    height: 122px;
+    background-color: #00c3b6;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.message input:hover{
+	background-color: #00b5a9;
+}
+
+/* footer */
+.group {
+    margin: 0 20px;
+} 
+
+.fl_lt {
+    margin-left: 60px;
+}
