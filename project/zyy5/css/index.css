@@ -1,0 +1,176 @@
+/* banner */
+.banner {
+    background: url(../images/banner.jpg) no-repeat center top;
+    background-size:100% 300px;
+    width: 100%;
+    height: 250px;
+    background-attachment: fixed;
+}
+
+.banner img {
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+    margin-left: 36%;
+    position: fixed;
+}
+
+.center {
+    width: 1260px;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/* content */
+.content {
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+.main {
+    width: 1260px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.info {
+    padding: 15px;
+    padding-left: 84px; 
+    background: url(../images/info.png) no-repeat 50px 16px;
+}
+
+.info li {
+    list-style-type: none;
+}
+
+.info li a {
+    float: left;
+    color: #888;
+    text-decoration: none;
+    margin-right: 4%;
+}
+
+.info li a:hover {
+    color:#00c3b6;
+	text-decoration:underline;
+}
+
+.imgBox {
+    margin-top: 20px;
+}
+
+.box_inner {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.box_inner img {
+    float: left;
+}
+
+.slider {
+    width: 752px;
+    height: 250px;
+    position: relative;
+}
+
+.slider li {
+    list-style-type: none;
+}
+
+.tip{
+    float: left;
+    width: 127px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.tip em {
+    position: absolute;
+    top: 6px;
+    display: block;
+    width: 127px;
+    height: 50px;
+    background: url(../images/current_border.png) no-repeat;
+}
+
+.tip ul {
+    margin-left: 5px;  
+}
+
+.tip ul li {
+    list-style-type: none;
+}
+
+.tip ul li img {
+    width: 113px;
+    height: 42px;
+    border: 4px solid #e1c3a1;
+    margin: 6px 1px;
+}
+
+/* font */
+.font {
+    padding: 20px 0;
+}
+.font img {
+    width: 88px;
+    height: 59px;
+}
+.font ul {
+    height: auto;
+    overflow: hidden;
+}
+
+.font ul li {
+    width: 420px;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.font ul li .title {
+    color: #019875;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0 0 15px;
+    text-transform: capitalize;
+}
+
+.font ul li h3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+/* feature */
+.feature {
+    width: 100%;
+    height: 200px;
+    padding: 5px 0;
+    background-color: #f1f1f1;
+}
+
+.feaBox {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 0 32px;
+}
+
+.one {
+    background: url(../images/one.jpg) no-repeat;
+}
+.two {
+    background: url(../images/two.jpg) no-repeat;
+}
+.three {
+    background: url(../images/three.jpg) no-repeat;
+}
+.four {
+    background: url(../images/four.jpg) no-repeat;
+}
